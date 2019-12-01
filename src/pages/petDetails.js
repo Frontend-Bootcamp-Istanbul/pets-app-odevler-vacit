@@ -24,10 +24,10 @@ class PetDetails extends Component {
     }
 
     render() {
-        const { name, image, age, description, breed, id } = this.state.petDetail;
+        const { name, image, age, description, breed } = this.state.petDetail;
 
         return (
-            <div className="col-lg-6 col-md-4 mb-4">
+            <div className="col-lg-3 col-md-4 mb-4">
                 <div className="card h-100">
                     <img className="card-img-top" src={image} alt="" style={{ height: "292px" }} />
                     <div className="card-body">
